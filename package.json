@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=8.9"
+    "node": ">=9.3"
   },
   "scripts": {
     "commit": "git-cz"
@@ -36,21 +36,28 @@
     "@commitlint/config-conventional": "^8.1.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.1",
-    "husky": "^3.0.1"
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
   },
-  "commitlint": {
-    "extents": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{html,css}": [
+      "stylelint --fix",
+      "git add"
+    ]
   }
 }
