@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/mwang0/mz-cli/compare/v0.2.0...v0.3.0) (2019-07-23)
+
+
+### Bug Fixes
+
+* **spinner:** 终止 spinner 出现异常 ([e30036c](https://github.com/mwang0/mz-cli/commit/e30036c))
+
+
+### Features
+
+* **cli:** 重命名 mz -> mx ([f31ad93](https://github.com/mwang0/mz-cli/commit/f31ad93))
+* **config:** 添加: standard-version 等依赖 ([70f4750](https://github.com/mwang0/mz-cli/commit/70f4750))
+* **utils.js:** 增加对自已的更新检查 ([e9aec83](https://github.com/mwang0/mz-cli/commit/e9aec83))
+
+
+
 ## 0.2.0 (2019-07-21)
 
 

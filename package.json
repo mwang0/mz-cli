@@ -1,6 +1,6 @@
 {
   "name": "mz-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "cli tools",
   "bin": {
     "mz": "bin/mx.js",
