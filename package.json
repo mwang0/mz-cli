@@ -3,7 +3,8 @@
   "version": "0.2.0",
   "description": "cli tools",
   "bin": {
-    "mz": "bin/mz.js"
+    "mz": "bin/mx.js",
+    "mx": "bin/mx.js"
   },
   "author": "M.Wang <cn_wang@139.com>",
   "publishConfig": {
