@@ -2319,7 +2319,8 @@ http-cache-semantics@^4.0.0:
 
 husky@^3.0.1:
   version "3.0.1"
-  resolved "https://registry.npm.taobao.org/husky/download/husky-3.0.1.tgz?cache=0&sync_timestamp=1563485736392&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhusky%2Fdownload%2Fhusky-3.0.1.tgz#06152c28e129622b05fa09c494209de8cf2dfb59"
+  resolved "https://registry.npmjs.org/husky/-/husky-3.0.1.tgz#06152c28e129622b05fa09c494209de8cf2dfb59"
+  integrity sha512-PXBv+iGKw23GHUlgELRlVX9932feFL407/wHFwtsGeArp0dDM4u+/QusSQwPKxmNgjpSL+ustbOdQ2jetgAZbA==
   dependencies:
     chalk "^2.4.2"
     cosmiconfig "^5.2.1"
