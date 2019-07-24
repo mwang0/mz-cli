@@ -14,7 +14,7 @@
       "type": "node",
       "request": "launch",
       "name": "m",
-      "program": "${workspaceFolder}/bin/mz.js",
+      "program": "${workspaceFolder}/bin/mx.js",
       "args": ["create", "m-admin-test"],
       "console": "integratedTerminal"
     },
