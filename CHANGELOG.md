@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/mwang0/mz-cli/compare/v0.4.0...v0.5.0) (2019-07-31)
+
+
+### Bug Fixes
+
+* 创建项目名为空出现异常 ([907feaf](https://github.com/mwang0/mz-cli/commit/907feaf)), closes [#1](https://github.com/mwang0/mz-cli/issues/1)
+
+
+### Features
+
+* 新增快应用工程模板 ([41b9ee9](https://github.com/mwang0/mz-cli/commit/41b9ee9))
+
+
+
 ## [0.4.0](https://github.com/mwang0/mz-cli/compare/v0.3.0...v0.4.0) (2019-07-24)
 
 
